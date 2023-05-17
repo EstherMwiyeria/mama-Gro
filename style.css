@@ -456,4 +456,281 @@ font-size: 180%;
         display: grid;
         grid-template-columns:repeat(1,1fr) ;
     }
-}     
+}  
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#vege{
+    color: black;
+    font-size: 50px;
+}
+.message{
+    display: flex;
+}
+.image{
+    padding-left: 12%;
+  
+}
+.offers{
+    padding-left: 10px;
+}
+.britah{
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+  }
+
+.features {
+  
+    padding: 20px;
+  }
+  .features h2 {
+    text-align: center;
+  }
+  .features ul {
+    list-style: none;
+    margin-left: 20px;
+    display: flex;
+    gap: 10%; 
+  }
+  .features li {
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  .advert{
+    text-align: center;
+  }
+  .vegetables{
+    display: flex;
+    gap: 10%;
+    margin-left: 5%;
+  }
+  .vegetables2{
+    display: flex;
+    gap: 10%;
+    border-radius: 30px;
+    padding-top: 10%;
+    margin-left: 5%;
+  }
+  #image1{
+    width: 200px;
+    height: 150px;
+  }
+  #carrot2{
+    width: 200px;
+    height: 150px;
+  }
+  #brokoli{
+    width: 200px;
+    height: 150px;
+  }
+  #cabbage{
+    width: 200px;
+    height: 150px;
+  }
+  #kales{
+    width: 200px;
+    height: 150px;
+  }
+  #brenge{
+    width: 200px;
+    height: 150px;
+  }
+  #onion{
+    width: 200px;
+    height: 150px;
+  }
+  #carrot2{
+    width: 100px;
+    height: 120px;
+  }
+  
+  #image1{
+    border-radius: 30px;
+    background-color:whitesmoke;
+    height: 80%;
+  }
+  .fruts{
+    padding-top: 6%;
+    padding-right: 5%;
+    text-align: center;
+    color: darkblue;
+  }
+  .vege{
+    padding-top: 3%;
+    text-align: center;
+    padding-right: 5%;
+    color: darkblue;
+  }
+  .fruits{
+    display: flex;
+    gap: 10%;
+    margin-left: 5%;
+    border-radius: 30px;
+  }
+  .heading{
+    /* text-align: center; */
+    margin-left: 8%;
+    color: var(--black);
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 3.5rem;
+ }
+
+
+
+
+ @media (max-width: 768px){
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .heading {
+        font-size: 2.5rem;
+      }
+    #vege {
+        color: black;
+        font-size: 50px;
+      }
+      
+      .message {
+        display: grid;
+      }
+      
+      .image {
+        padding-left: 12%;
+      }
+      
+      .offers {
+        padding-left: 10px;
+      }
+      
+      .britah {
+        display: flex;
+        justify-content: space-between;
+        background-color: whitesmoke;
+      }
+      
+      .features {
+        padding: 20px;
+      }
+      
+      .features h2 {
+        text-align: center;
+      }
+      
+      .features ul {
+        list-style: none;
+        margin-left: 20px;
+        display: grid;
+        gap: 10%;
+      }
+      
+      .features li {
+        margin-bottom: 10px;
+        text-decoration: none;
+      }
+      
+      .advert {
+        text-align: center;
+      }
+      
+      .vegetables {
+        display: grid;
+        gap: 10%;
+        margin-left: 5%;
+      }
+      
+      .vegetables2 {
+        display: grid;
+        gap: 10%;
+        border-radius: 30px;
+        padding-top: 10%;
+        margin-left: 5%;
+      }
+      
+      #image1 {
+        width: 200px;
+        height: 150px;
+      }
+      
+      #carrot2 {
+        width: 200px;
+        height: 150px;
+      }
+      
+      #brokoli {
+        width: 200px;
+        height: 150px;
+      }
+      
+      #cabbage {
+        width: 200px;
+        height: 150px;
+      }
+      
+      #kales {
+        width: 200px;
+        height: 150px;
+      }
+      
+      #brenge {
+        width: 200px;
+        height: 150px;
+      }
+      
+      #onion {
+        width: 200px;
+        height: 150px;
+      }
+      
+      #carrot2 {
+        width: 100px;
+        height: 120px;
+      }
+      
+      #image1 {
+        border-radius: 30px;
+        background-color: whitesmoke;
+        height: 80%;
+      }
+      
+      .fruts {
+        padding-top: 6%;
+        padding-right: 5%;
+        text-align: center;
+        color: darkblue;
+      }
+      
+      .vege {
+        padding-top: 3%;
+        text-align: center;
+        padding-right: 5%;
+        color: darkblue;
+      }
+      
+      .fruits {
+        display: grid;
+        gap: 10%;
+        margin-left: 5%;
+        border-radius: 30px;
+      }
+      
+      .heading {
+        /* text-align: center; */
+        margin-left: 8%;
+        color: var(--black);
+        text-transform: uppercase;
+        padding: 1rem;
+        font-size: 3.5rem;
+      }
+    
+ }
+
+
+   
