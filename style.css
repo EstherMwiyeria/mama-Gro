@@ -867,5 +867,83 @@ body {
 }
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#27AE60;
+}
+
+
+#Cathy{
+  height: 6rem;
+  border-radius: 60%;
+}
+#Emmily{
+  height: 6rem;
+  border-radius: 60%;
+}
+#Essy{
+  height: 6rem;
+  border-radius: 60%;
+}
+#Victoria{
+  height: 6rem;
+  border-radius: 60%;
+}
+#Jem{
+  height: 6rem;
+  border-radius: 60%;
+}
+#Linet{
+  height: 6rem;
+  border-radius: 60%;
+}
+.DEvs{
+  display: flex;
+  gap: 7%;
+  margin-left: 5%;
+}
+h1{
+  font-size: 50px;
+  color: white;
+  margin-left: 35%;
+}
+p{
+  color: white;
+}
+@media (max-width: 768px) {
+  h1 {
+      font-size: 40px;
+      margin-left: 20%;
+  }
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:#27AE60;
+  }
+  #Cathy, #Emmily, #Essy, #Victoria, #Jem, #Linet {
+      height: 6rem;
+      border-radius: 60%;
+  }
+  .DEvs {
+      display: grid;
+      gap: 7%;
+      margin-left: 5%;
+  }
+  h1 {
+      font-size: 50px;
+      color: white;
+      margin-left: 35%;
+  }
+  p {
+      color: white;
+  }
+  
+}
+
+
+
 
    
